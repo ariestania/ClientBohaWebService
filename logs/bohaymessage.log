@@ -1,0 +1,73 @@
+03-16 14:36:12.043 - Req: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <soapenv:Body>
+  <doSummary xmlns="http://example.ariestania.com/">
+   <valOne xmlns="">54</valOne>
+   <valTwo xmlns="">23</valTwo>
+  </doSummary>
+ </soapenv:Body>
+</soapenv:Envelope>
+03-16 14:36:12.110 - resp: <?xml version="1.0" encoding="utf-8"?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+ <S:Body>
+  <ns2:doSummaryResponse xmlns:ns2="http://example.ariestania.com/">
+   <return>77</return>
+  </ns2:doSummaryResponse>
+ </S:Body>
+</S:Envelope>
+03-16 14:39:14.795 - Req: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <soapenv:Body>
+  <hello xmlns="http://example.ariestania.com/">
+   <name xmlns="">w</name>
+  </hello>
+ </soapenv:Body>
+</soapenv:Envelope>
+03-16 14:39:14.865 - resp: <?xml version="1.0" encoding="utf-8"?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+ <S:Body>
+  <ns2:helloResponse xmlns:ns2="http://example.ariestania.com/">
+   <return>Hello w !</return>
+  </ns2:helloResponse>
+ </S:Body>
+</S:Envelope>
+03-16 14:40:28.271 - Req: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <soapenv:Body>
+  <doSummary xmlns="http://example.ariestania.com/">
+   <valOne xmlns="">88</valOne>
+   <valTwo xmlns="">99</valTwo>
+  </doSummary>
+ </soapenv:Body>
+</soapenv:Envelope>
+03-16 14:40:28.410 - resp: <?xml version="1.0" encoding="utf-8"?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+ <S:Body>
+  <ns2:doSummaryResponse xmlns:ns2="http://example.ariestania.com/">
+   <return>187</return>
+  </ns2:doSummaryResponse>
+ </S:Body>
+</S:Envelope>
+03-16 14:41:08.335 - Req: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <soapenv:Body>
+  <doSummary xmlns="http://example.ariestania.com/">
+   <valOne xmlns="">78</valOne>
+   <valTwo xmlns="">98</valTwo>
+  </doSummary>
+ </soapenv:Body>
+</soapenv:Envelope>
+03-16 14:41:08.398 - resp: <?xml version="1.0" encoding="utf-8"?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+ <S:Body>
+  <ns2:doSummaryResponse xmlns:ns2="http://example.ariestania.com/">
+   <return>176</return>
+  </ns2:doSummaryResponse>
+ </S:Body>
+</S:Envelope>
+03-16 14:45:13.777 - Req: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <soapenv:Body>
+  <hello xmlns="http://example.ariestania.com/">
+   <name xmlns="">ff</name>
+  </hello>
+ </soapenv:Body>
+</soapenv:Envelope>
+03-16 14:45:13.836 - resp: <?xml version="1.0" encoding="utf-8"?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+ <S:Body>
+  <ns2:helloResponse xmlns:ns2="http://example.ariestania.com/">
+   <return>Hello ff !</return>
+  </ns2:helloResponse>
+ </S:Body>
+</S:Envelope>

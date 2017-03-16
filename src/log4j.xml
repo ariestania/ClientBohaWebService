@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd" >
+<log4j:configuration>
+    
+    <!-- INFO -->
+    <appender name="bohayMessage"
+              class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="datePattern" value="'.'yyyy-MM-dd" />
+        <param name="File" value="logs/bohaymessage.log" />
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern"
+                   value="%d{MM-dd HH:mm:ss.SSS} - %m%n" />
+        </layout>
+        <filter class="org.apache.log4j.varia.LevelRangeFilter">
+            <param name="LevelMin" value="info" />
+            <param name="LevelMax" value="info" />
+        </filter>
+    </appender>
+        
+    <category name="bohayMessage" additivity="false">
+        <appender-ref ref="bohayMessage" />
+    </category>
+        
+    <root>
+        <appender-ref ref="bohayMessage" />
+    </root>    
+        
+</log4j:configuration>
